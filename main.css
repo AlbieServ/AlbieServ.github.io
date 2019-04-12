@@ -147,6 +147,7 @@ html, body
 
 #welcome p
 {
+	height: 50%;
 	margin: 0px;
 	padding-top: 200px;
 	width: 60%;
@@ -154,13 +155,13 @@ html, body
 	padding-left: 20%;
 	padding-right: 20%;
 	color: #ffffff;
-	font-size: 72px;
+	font-size: 56pt;
 }
 
 #welcome button
 {
-	margin-top: 200px;
-	height: 78px;
+	margin-top: 50px;
+	height: 9%;
 	background-color: #ff9900;
 	border: none;
 	padding-left: 20px;
