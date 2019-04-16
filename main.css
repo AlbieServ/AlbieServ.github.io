@@ -30,7 +30,6 @@ body
 	padding-right: 10%; 
 	width: 20%;
 	float: right;
-	margin: 10px;
 }
 
 #downloads p
@@ -42,7 +41,7 @@ body
 	margin: 10px;
 	padding-right: 10%; 
 	padding-left: 10%;
-	width: 50%;
+	width: 48%;
 	float: left;
 }
 
@@ -76,6 +75,7 @@ body
 	border-radius: 5px;
 	color: #ffffff;
 	font: 18pt/1.5 Oswald, sans-serif;
+    margin: 10px;
 }
 
 .btn:hover
@@ -263,32 +263,30 @@ html, body
 }
 
 /*Powered By*/
-#powered
-{
-	background-color: #ff9900;
-	border-top: #35424a 3px solid;
-	border-bottom: #35424a 3px solid;
-	color: #000000;
-	font-size: 18pt;
-	width: 100%;
+#powered {
+    background-color: #ff9900;
+    border-top: #35424a 3px solid;
+    border-bottom: #35424a 3px solid;
+    color: #000000;
+    font-size: 18pt;
+    width: 100%;
 }
 
-#powered p
-{
-	padding-left: 50px;
-	float: left;
-}
+    #powered p {
+        padding-left: 5%;
+        width: 60%;
+        float: left;
+    }
 
-#powered img
-{
-	float: right;
-}
+    #powered img {
+        float: right;
+    }
 
-#powered #imgs
-{
-	padding:10px;
-	width: 20%;
-}
+    #powered #imgs {
+        padding: 10px;
+        padding-right: 5%;
+        width: 29%;
+    }
 
 /*Footer*/
 footer
