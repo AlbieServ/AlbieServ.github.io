@@ -19,6 +19,33 @@ body
 	margin: auto;
 }
 
+#downloads
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+#downloads .downloads
+{
+	padding-right: 10%; 
+	width: 20%;
+	float: right;
+	margin: 10px;
+}
+
+#downloads p
+{
+	border-top: #ff6600 1px solid;
+	border-bottom: #ff6600 1px solid;
+	border-top-color: lightgrey;
+	border-bottom-color: lightgrey; 
+	margin: 10px;
+	padding-right: 10%; 
+	padding-left: 10%;
+	width: 50%;
+	float: left;
+}
+
 .download
 {
 	height: 50px;
