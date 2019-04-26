@@ -2,18 +2,10 @@
 <html>
 <head lang="en">
 	<meta charset="utf-8">
-	<meta name="description" content="Mirror the Albie Launcher now for free!">
-	<meta name="keywords" content="albielauncher,launcher ,albieserv, albietk, llc, albiellc, albie">
 	<meta name="author" content="Albie, LLC">
 	<title>Albie LLC | Mirrors</title>
 	<link rel="stylesheet" type="text/css" href="notmain.css">
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="a.png">
-	<script type="text/javascript">
-	if (screen.width <= screen.height) {
-	document.location = "/mobile/mindex.html";
-	}
-	</script>
 </head>
 <body>
 	<div id="header">
@@ -33,13 +25,13 @@
 
 	<section id="deadspace"></section>
 
-	<section id="powered">
-		<div class="container">
-			<p>
-				We're powered by: <a href="https://mega.nz">Mega Limited Co.</a>, <a href="https://github.com/">GitHub Inc.</a>, and <a href="http://drive.google.com">Google LLC.</a>.
-			</p>
-		</div>
+	<section>
+		<form action="/surname.php" method="GET">
+			<input type="text" name="">
+			<button>Next</button>
+		</form>
 	</section>
+
 	<footer>
 		<img src="alow.png" align="left">
         <p>Albie, "Web Design, Studios, Games" LLC. &copy; Copyright 2019 | Support: Albie@GetAlbie.com | Copyright 2018-2019 All Rights Reserved</p>

@@ -1,11 +1,10 @@
 /*CSS.3 Stylesheet*/
 
 /*For 1st Layer*/
-@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 body
 {
-	font: 15pt/1.5 Oswald, sans-serif;
+	font: 15pt/1.5 segoe ui, sans-serif;
 	padding: 0px;
 	margin: 0px;
 	background-color: #f4f4f4;
@@ -54,7 +53,7 @@ body
 	padding-right: 20px;
 	border-radius: 5px;
 	color: #ffffff;
-	font: 18pt/1.5 Oswald, sans-serif;
+	font: 18pt/1.5 segoe ui, sans-serif;
 }
 
 .download:hover
@@ -74,7 +73,7 @@ body
 	padding-right: 20px;
 	border-radius: 5px;
 	color: #ffffff;
-	font: 18pt/1.5 Oswald, sans-serif;
+	font: 18pt/1.5 segoe ui, sans-serif;
     margin: 10px;
 }
 
@@ -195,7 +194,7 @@ html, body
 	padding-right: 20px;
 	border-radius: 5px;
 	color: #ffffff;
-	font: 36pt/1.5 Oswald, sans-serif;
+	font: 36pt/1.5 segoe ui, sans-serif;
 }
 
 #welcome button:hover
@@ -292,7 +291,7 @@ html, body
 footer
 {
 	text-align: center;
-	font: 9pt/1.5 Oswald, sans-serif;
+	font: 9pt/1.5 segoe ui, sans-serif;
 	color: grey;
 }
 
