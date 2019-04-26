@@ -2,6 +2,41 @@
 
 /*For 1st Layer*/
 
+body {
+    font: 15pt/1.5 segoe ui, sans-serif;
+}
+
+form {
+    display: block;
+    margin: auto;
+    margin-top: 30pt;
+    width: 40%;
+}
+
+input {
+    font: 15pt/1.5 segoe ui, sans-serif;
+    font-weight: bold;
+    margin: 4pt;
+    border-radius: 5px;
+    align-self: center;
+    width:100%;
+}
+
+button
+{
+    background-color: #ff9900;
+    border-color: #ff6600;
+    border-radius: 5px;
+    width: 50%;
+    color: white;
+    font: 15pt/1.5 segoe ui, sans-serif;
+    display: block;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-content: center
+}
 
 body {
     font: 15pt/1.5 segoe ui, sans-serif;
