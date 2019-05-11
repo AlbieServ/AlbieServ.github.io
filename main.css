@@ -59,7 +59,6 @@ body
 .download:hover
 {
 	color: #000000;
-	font-weight: bold;
 	-webkit-animation: policecol linear 0.5s infinite alternate;
   	animation: policecol linear 0.5s infinite alternate;
 }
@@ -81,7 +80,6 @@ body
 {
 	color: #000000;
 	background-color: #1adb23;
-	font-weight: bold;
 	-webkit-animation: hover linear 0.05s;
   	animation: hover linear 0.05s;
 }
