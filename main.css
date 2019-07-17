@@ -59,8 +59,6 @@ body
 .download:hover
 {
 	color: #000000;
-	-webkit-animation: policecol linear 0.5s infinite alternate;
-  	animation: policecol linear 0.5s infinite alternate;
 }
 
 .btn
@@ -171,7 +169,7 @@ html, body
 
 #welcome p
 {
-	height: 50%;
+	height: 100px;
 	margin: 0px;
 	padding-top: 200px;
 	width: 60%;
@@ -180,6 +178,10 @@ html, body
 	padding-right: 20%;
 	color: #ffffff;
 	font-size: 56pt;
+}
+
+#toomct {
+	margin-top: 425px;
 }
 
 #welcome button
@@ -198,9 +200,8 @@ html, body
 #welcome button:hover
 {
 	color: #000000;
-	font-weight: bold;
-	-webkit-animation: policecol linear 0.5s infinite alternate;
-  	animation: policecol linear 0.5s infinite alternate;
+	-webkit-animation: cool linear 5s infinite alternate;
+  	animation: cool linear 5s infinite alternate;
 }
 
 /*Download*/
@@ -299,35 +300,6 @@ footer img
 }
 
 /*Animations*/
-@-webkit-keyframes policecol 
-{
-  0%   {background-color:red;}
-  50%  {background-color:blue;}
-  100% {background-color:red;}
-}
-
-@keyframes policecol 
-{
-  0%   {background-color:red;}
-  50%  {background-color:blue;}
-  100% {background-color:red;}
-}
-
-@-webkit-keyframes policefont
-{
-  0%   {color:red;}
-  50%  {color:blue;}
-  100% {color:red;}
-}
-
-@keyframes policefont
-{
-  0%   {color:red;}
-  50%  {color:blue;}
-  100% {color:red;}
-}
-
-/*Animations*/
 @-webkit-keyframes hover
 {
   0%   {background-color:#ff9900;}
@@ -338,4 +310,19 @@ footer img
 {
   0%   {background-color:#ff9900;}
   100% {background-color:#2c44b4;}
+}
+
+/*Animations*/
+@-webkit-keyframes cool
+{
+  0%   {background-color:#4ce7f5;}
+  50%  {background-color:#4cf581;}
+  100% {background-color:#4ce7f5;}
+}
+
+@keyframes cool
+{
+  0%   {background-color:#4ce7f5;}
+  50%  {background-color:#4cf581;}
+  100% {background-color:#4ce7f5;}
 }

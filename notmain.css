@@ -2,6 +2,65 @@
 
 /*For 1st Layer*/
 
+.yt {
+    margin: 5%
+}
+
+#downloaded
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#left
+{
+    width: 40%;
+    float: left;
+    border-right: lightgrey 1px solid;
+}
+
+#left img
+{
+    margin: 10px;
+}
+
+#right
+{
+    width: 50%;
+    float: right;
+}
+
+input
+{
+    float: right;
+    height: 50px;
+    background-color: #ff9900;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font: 18pt/1.5 segoe ui;
+    margin: 15px;
+}
+
+#right p
+{
+    border-top: #ff6600 1px solid;
+        border-bottom: #ff6600 1px solid;
+        border-top-color: lightgrey;
+        border-bottom-color: lightgrey;
+        margin: 10px;
+        padding-right: 10%;
+        padding-left: 10%;
+        width: 48%;
+        text-align: center;
+}
+
+#deadspacev2 {
+    padding-bottom: 500px;
+}
 
 body {
     font: 15pt/1.5 segoe ui, sans-serif;
@@ -15,6 +74,16 @@ body {
     width: 80%;
     overflow: hidden;
     margin: auto;
+}
+
+#bye {
+    font-size: 200pt;
+    padding: 0px;
+    color: #ff9900;
+}
+
+#nye {
+    padding: 0px;
 }
 
 #downloads {
