@@ -19,7 +19,11 @@
 			ccip.select();
 			document.execCommand("copy");
 			alert("Copied the text: " + ccip.value);
-		}		
+		}
+	function downrp()
+		{
+			window.open("ALTOJ_MCT_5.zip");
+		}
 	</script>
 </head>
 <body>
@@ -73,9 +77,9 @@
 			<div id="right" align="center">
 				<div class="container" align="center">
 				<p align="center">Directly download the latest version of the Offical Minecraft Tribes Resource Pack instantly...</p>
-				<form method="get" action="ALTOJ_MCT_5.zip" align="center">
-	   				<button type="submit" class="btn">Download Offical Minecraft Tribes Resource Pack</button>
-				</form>
+				<form method="get" align="center" action="rptut.html">
+	   				<button type="submit" onclick="downrp()" class="btn">Download Offical Minecraft Tribes Resource Pack</button>
+	   			</form>
 			</div>
 			<div class="container" align="center">
 				<p align="center">Goto the original course forge page of the derived resource pack...</p>
