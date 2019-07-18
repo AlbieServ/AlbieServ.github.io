@@ -8,16 +8,22 @@
 
 #downloaded
 {
+    margin-top: 30px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    height: 200px;
 }
 
 #left
 {
     width: 40%;
     float: left;
+    border-radius: 15px;
     border-right: lightgrey 1px solid;
+    border-top: lightgrey 1px solid;
+    border-bottom: lightgrey 1px solid;
+    background-color: #ffddad;
 }
 
 #left img
@@ -31,7 +37,12 @@
     float: right;
 }
 
-#cnd a
+#dcn
+{
+    height: auto;
+}
+
+#cnd
 {
     text-decoration: none;
     color: #ff9900;
@@ -85,7 +96,7 @@ body {
 
 /*Global*/
 .container {
-    width: 80%;
+    width: 90%;
     overflow: hidden;
     margin: auto;
 }
