@@ -38,6 +38,13 @@
     text-align: center;
 }
 
+a
+{
+    text-decoration: none;
+    color: #1a4573;
+    text-align: center;
+}
+
 input
 {
     float: right;
