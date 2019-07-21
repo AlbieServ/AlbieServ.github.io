@@ -2,6 +2,11 @@
 
 /*For 1st Layer*/
 
+#blahha
+{
+    color: red;
+}
+
 .yt {
     margin: 5%
 }
@@ -20,6 +25,8 @@
     width: 40%;
     float: left;
     border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
     border-right: lightgrey 1px solid;
     border-top: lightgrey 1px solid;
     border-bottom: lightgrey 1px solid;
